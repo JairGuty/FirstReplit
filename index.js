@@ -1,4 +1,8 @@
 import { User } from './User.js';
+import { Product } from './Product.js';
 
 const person = new User('Jair', 'Gutierrez')
-console.log(person.name)
+const {name, lastname } = person;
+console.log(name, lastname )
+
+console.log(new Product("Laptop", 300));
